@@ -1,5 +1,3 @@
-//problem 01
-
 function calculateMoney(ticketSale) {
     if (ticketSale >= 0) {
         const perTicket = 120;
@@ -21,8 +19,6 @@ function calculateMoney(ticketSale) {
     }
 }
 
-
-//problem 02
 
 function checkName(name) {
     if (typeof name == "string") {
@@ -47,8 +43,6 @@ function checkName(name) {
 }
 
 
-//problem 03
-
 function deleteInvalids(array) {
     if (Array.isArray(array) == true) {
         let newArray = [];
@@ -68,8 +62,6 @@ function deleteInvalids(array) {
 }
 
 
-//problem 04
-
 function password(obj) {
     if (typeof obj.name == "undefined" || typeof obj.birthYear == "undefined" || typeof obj.siteName == "undefined" || obj.birthYear < 1000) {
         return "invalid";
@@ -84,7 +76,6 @@ function password(obj) {
 }
 
 
-//problem 05
 function monthlySavings(arr, livingCost) {
 
     if (Array.isArray(arr) == false || typeof livingCost != "number") {
